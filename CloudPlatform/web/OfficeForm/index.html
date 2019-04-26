@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+
+    <title>Office </title>
+
+    <link rel="shortcut icon" href="assets/images/gt_favicon.png">
+
+    <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+
+
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+</head>
+
+<body>
+
+<!-- Fixed navbar -->
+<div class="navbar navbar-inverse navbar-fixed-top headroom">
+    <div class="container">
+        <div class="navbar-header">
+            <!-- Button for smallest screens -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span
+                    class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+            <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Progressus HTML5 template"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav pull-right">
+                <li><a href="profile.html">Profile</a></li>
+                <li class="active"><a class="btn" href="index.html">Office</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+<!-- /.navbar -->
+
+
+<header id="head" class="secondary"></header>
+
+
+
+
+<!-- Article main content -->
+<header class="page-header">
+    <h1 class="page-title">Devices</h1>
+</header>
+
+    <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-4" id="devices">
+
+    </div>
+
+
+
+    <div class="button js-button-campaign"><span>+ Add</span></div>
+    <div class="overlay js-overlay-campaign" >
+    <div class="popup js-popup-campaign">
+        <h2>Add device</h2>
+        <br>
+        <input required type="text" placeholder="Address" class="form-control" id="device-address">
+        <br>
+        <input required type="text" placeholder="Password" class="form-control" id="device-password">
+        <div class="close-popup js-close-campaign"></div>
+        <br>
+        <div class="row">
+            <div class="col-lg-1 text-right">
+                <button class="btn btn-action" type="submit" onclick="addDevice()">Add</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>
